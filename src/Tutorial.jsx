@@ -1,8 +1,8 @@
 import React from 'react';
 import aero from "./assets/aero.svg";
 import blur from "./assets/Blur 6.png";
-import card1 from "./assets/card 1.svg";
-import card2 from "./assets/card 2.svg";
+import card1 from "./assets/Card 1.svg";
+import card2 from "./assets/Card 2.svg";
 import { Link } from 'react-router-dom';
 
 const Tutorial = () => {
