@@ -10,8 +10,8 @@ const Customers = () => {
         <div className={`text-white p-5 relative bg-center bg-no-repeat bg-[url(./assets/bg.png)] flex flex-col justify-center items-center`}>
             <img className='absolute sm:top-[50%] top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]' src={blur} alt="" />
             <div className='flex w-full justify-around gap-5 px-5'>
-                <h3 className='text-4xl sm:w-[250px] font-light'>Used by top teams across the globe</h3>
-                <h1 className='sm:text-8xl text-6xl flex flex-col'>110K<span className='text-sm text-white/50 text-end'>Customers since 2023</span></h1>
+                <h3 id='heading4' className='text-4xl sm:w-[250px] font-light'>Used by top teams across the globe</h3>
+                <h1 id='heading5' className='sm:text-8xl text-6xl flex flex-col'>110K<span className='text-sm text-white/50 text-end'>Customers since 2023</span></h1>
             </div>
             <img src={hexagons} alt="" />
 

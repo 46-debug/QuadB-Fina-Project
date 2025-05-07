@@ -4,3 +4,38 @@
 * {
     font-family: "Inter", sans-serif;
 }
+
+#heading {
+    background: linear-gradient(90deg, #FFF 1.63%, rgba(255, 255, 255, 0.00) 103.32%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#heading2 {
+    background: linear-gradient(94deg, #FFF 39.79%, rgba(255, 255, 255, 0.00) 65.29%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#heading3 {
+    background: linear-gradient(90deg, #FFF 1.63%, rgba(255, 255, 255, 0.00) 103.32%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#heading4 {
+    background: linear-gradient(72deg, #FFF 24.97%, rgba(177, 177, 177, 0.00) 92.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#heading5 {
+    background: linear-gradient(110deg, #FFF 30.4%, rgba(177, 177, 177, 0.00) 88.88%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

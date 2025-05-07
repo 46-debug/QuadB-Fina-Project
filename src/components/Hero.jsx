@@ -14,7 +14,7 @@ const Hero = () => {
                 <Link to="/gettingstarted">
                     <div className='flex px-4 py-1.5 bg-white/0 rounded-lg shadow-[0px_10px_10px_0px_rgba(0,0,0,0.10)] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.05)] shadow-[0px_1px_22px_0px_rgba(255,255,255,0.10)] shadow-[inset_0px_0px_20px_0px_rgba(198,204,255,0.20)] shadow-[inset_0px_1px_3px_0px_rgba(199,220,255,0.35)] outline outline-1 outline-offset-[-1px] outline-white/0 backdrop-blur-[10px] items-center gap-2 w-52 justify-center'>New components <img src={aero} alt="" /></div>
                 </Link>
-                <div className="self-stretch text-center justify-start text-white text-6xl font-medium font-['Inter']">Craft Stunning User Interfaces</div>
+                <div id='heading' className="self-stretch text-center justify-start text-white text-6xl font-medium font-['Inter']">Craft Stunning User Interfaces</div>
                 <div className="self-stretch text-center">This UI kit is a perfect blend of modern design and practical usability, making it an ideal choice for a wide range of projects including web applications, mobile apps, and dashboard interfaces.</div>
                 <Link to="/features">
                     <button className='flex px-4 py-2 bg-white/15 rounded-lg shadow-[0px_10px_10px_0px_rgba(0,0,0,0.10)] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.05)] shadow-[0px_1px_22px_0px_rgba(255,255,255,0.10)] shadow-[inset_0px_0px_20px_0px_rgba(198,204,255,0.20)] shadow-[inset_0px_1px_3px_0px_rgba(199,220,255,0.35)] outline outline-1 outline-offset-[-1px] outline-white/0 backdrop-blur-[10px] items-center gap-2 w-52 justify-center'>
