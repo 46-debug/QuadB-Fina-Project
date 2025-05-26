@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    color: white;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    min-height: 100dvh;
+    overflow-x: hidden;
+    background: transparent;
+    overflow: hidden;
+}
+
+h4 {
+    font-weight: 300;
+    max-width: 650px;
+    text-align: center;
+    padding: 0px 5px;
+    background: transparent;
+    font-size: medium;
+}
+
+h2 {
+    font-family: "EB Garamond", serif;
+    font-style: italic;
+    font-size: 35px;
+    font-size: clamp(30px, 5vw, 50px);
+    text-align: center;
+    background: transparent;
+}
+
+h2 span {
+    font-family: "EB Garamond", serif;
+    font-style: italic;
+    background: linear-gradient(90deg, #F6E501 0%, #137400 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading {
+    font-size: clamp(40px, 7vw, 70px);
+    text-align: center;
+    background: transparent;
+}
+
+.main_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: transparent;
+}
+
+.btn {
+    padding: 7px 20px;
+    border-radius: 34px;
+    background: #0a0a0a;
+}
+
+.btn_div {
+    margin-top: 30px;
+    border-radius: 34px;
+    padding: 1px;
+    background: linear-gradient(90deg, #FFEA00 0%, #0D7100 100%);
+}
+
+.line_img {
+    padding: 0px 5px;
+}
+
+.webdev_text {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    width: 230px;
+    background: linear-gradient(90deg, #FFF 77.88%, #000 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.animation_div {
+    display: flex;
+    height: 40px;
+    animation: scrollUp 15s linear infinite;
+}
+
+.border_gradient {
+    padding: 3px 0px;
+    background: linear-gradient(90deg, #B9B9B9 -19.88%, #000 45.38%, #B8B8B8 134.38%);
+    white-space: nowrap;
+}
+
+@keyframes scrollUp {
+    0% {
+        transform: translateX(0%);
+    }
+
+
+    100% {
+        transform: translateX(-30%);
+    }
+}
+
+.main_heading_2 {
+    font-family: "EB Garamond", serif;
+    font-style: italic;
+    font-size: 35px;
+    font-size: clamp(30px, 5vw, 50px);
+    text-align: center;
+}
+
+.main_heading_2 span {
+    font-family: "EB Garamond", serif;
+    color: #FFEA00;
+}
+
+#pass {
+    color: #0D7100;
+}
+
+.heading_2 {
+    font-size: clamp(30px, 4vw, 50px);
+    text-align: center;
+    font-weight: 300;
+}
+
+.main_3 h4 {
+    font-weight: 300;
+    font-size: small;
+    text-align: center;
+}
+
+.main_3 {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.border_gradient_div {
+    border-radius: 20px;
+    padding: 2px;
+    background: linear-gradient(90deg, #E3E3E3 0%, #0B0B0B 100%);
+}
+
+.border_gradient_div div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 20px;
+    padding: 20px 30px;
+    background: linear-gradient(72deg, rgba(22, 22, 22, 0.50) 72.6%, rgba(235, 235, 235, 0.50) 100%);
+    max-width: 500px;
+    height: 250px;
+}
+
+.div_4 {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.border_gradient_div div h6 {
+    background: transparent;
+    font-size: 20px;
+
+}
+
+.border_gradient_div div p {
+    background: transparent;
+    font-size: 15px;
+}
+
+.main_4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.main_4 h3 {
+    font-family: "EB Garamond", serif;
+    font-style: italic;
+    font-size: clamp(30px, 5vw, 40px);
+    font-weight: 300;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding: 0px 5px;
+    background: transparent;
+}
+
+.main_4 h5 {
+    background: transparent;
+}
