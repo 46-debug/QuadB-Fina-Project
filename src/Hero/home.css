@@ -17,6 +17,19 @@
     overflow: hidden;
 }
 
+/* .bg_video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+} */
+
 h4 {
     font-weight: 300;
     max-width: 650px;
@@ -73,7 +86,9 @@ h2 span {
 }
 
 .line_img {
+    max-width: 350px;
     padding: 0px 5px;
+    background: transparent;
 }
 
 .webdev_text {
@@ -88,6 +103,10 @@ h2 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+}
+
+.webdev_text img{
+    background: transparent;
 }
 
 .animation_div {
@@ -205,7 +224,7 @@ h2 span {
     font-size: clamp(30px, 5vw, 40px);
     font-weight: 300;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 50px;
     padding: 0px 5px;
     background: transparent;

@@ -1,5 +1,5 @@
-import Ani from './LineAnimation';
-import Home from './home/Home';
+import Ani from './Line Animation/LineAnimation';
+import Home from './Hero/Home';
 import './index.css';
 
 const App = () => {

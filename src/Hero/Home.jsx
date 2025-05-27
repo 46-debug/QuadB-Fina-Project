@@ -1,12 +1,15 @@
 import "./home.css";
 import Line from "../assets/line.svg";
 import Aeros from "../assets/aeros.svg";
+import bv from "../assets/bv.mp4";
+import Cards from "../Cards/Cards";
 
 const Home = () => {
 
     return (
         <>
             <div className="main">
+
                 <div className="main_2">
                     <h2>Come to us with a <span>vision</span></h2>
                     <img className="line_img" src={Line} alt="" />
@@ -44,6 +47,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            <Cards />
 
             <div className="main_4">
                 <div className="btn_div">

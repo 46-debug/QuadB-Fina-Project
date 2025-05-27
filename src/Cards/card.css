@@ -1,0 +1,128 @@
+.cards_main {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading_1 {
+    font-family: "EB Garamond", serif;
+    font-size: clamp(30px, 5vw, 50px);
+    background: transparent;
+    font-style: italic;
+
+}
+
+#spn_1 {
+    font-family: "EB Garamond", serif;
+    background: transparent;
+    color: #F6E501;
+}
+
+#spn_2 {
+    font-family: "EB Garamond", serif;
+    background: transparent;
+    color: #137400;
+}
+
+.line {
+    max-width: 700px;
+    background: transparent;
+    margin-top: 10px;
+}
+
+.heading_2 {
+    font: "Inter";
+    background: transparent;
+}
+
+.cards_main h5 {
+    font-weight: 300;
+    font-size: 13px;
+    background: transparent;
+}
+
+.card {
+    position: relative;
+    z-index: 1;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 20px 15px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #0C0C0C 0%, #323232 100%);
+    overflow: hidden;
+    gap: 10px;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2.5px;
+    background: linear-gradient(90deg, #525252 0%, #323232 100%);
+    border-radius: 16px;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+}
+
+.card h4 {
+    background: transparent;
+    font-size: medium;
+    padding: 0px;
+}
+
+.card p {
+    background: transparent;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card_2 {
+    position: relative;
+    z-index: 1;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 20px 15px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #0C0C0C 0%, #323232 100%);
+    overflow: hidden;
+    gap: 10px;
+}
+
+.card_2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2.5px;
+    background: linear-gradient(90deg, #1b1b1b 0%, #525252 100%);
+    border-radius: 16px;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+}
+
+.card_2 h4 {
+    background: transparent;
+    font-size: medium;
+    padding: 0px;
+}
+
+.card_2 p {
+    background: transparent;
+    font-size: 15px;
+    font-weight: 300;
+}
